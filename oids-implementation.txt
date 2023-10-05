@@ -1,0 +1,12 @@
+<button-oid label="Mundo Política" publish="click~noticia/mundo/politica" value="Mundo Politica"></button-oid>
+
+<button-oid label="Brasil Política" publish="click~noticia/brasil/politica" value="Brasil Politica"></button-oid>
+
+<button-oid label="Brasil Dinos" publish="click~noticia/brasil/dinos" value="Brasil dos dinos"></button-oid>
+
+<button-oid label="Bahia Dinos" publish="click~noticia/bahia/dinos" value="Bahia dos dinos"></button-oid>
+
+
+
+<lively-talk-oid subscribe="noticia/mundo/politica~display;noticia/brasil/politica~display;noticia/brasil/dinos~display;noticia/bahia/dinos~display;">
+</lively-talk-oid>
