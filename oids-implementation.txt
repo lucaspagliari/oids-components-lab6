@@ -7,6 +7,11 @@
 <button-oid label="Bahia Dinos" publish="click~noticia/bahia/dinos" value="Bahia dos dinos"></button-oid>
 
 
+<lively-talk-oid character="assets:images/doctor.png" speech="I heard about: " subscribe="noticia/+/politica~display">
+</lively-talk-oid>
 
-<lively-talk-oid subscribe="noticia/mundo/politica~display;noticia/brasil/politica~display;noticia/brasil/dinos~display;noticia/bahia/dinos~display;">
+<lively-talk-oid character="assets:images/nurse.png" speech="I heard about: " subscribe="noticia/brasil/#~display">
+</lively-talk-oid>
+
+<lively-talk-oid speech="I heard about: " subscribe="noticia/#~display">
 </lively-talk-oid>
